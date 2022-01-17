@@ -19,24 +19,24 @@ customize the path to ~Rscript~.
 ** Figures Overview
 
 
-| Section | Figure Number | Figure                                                     | Description | Script path           |
-|---------+---------------+------------------------------------------------------------+-------------+-----------------------|
-|       2 |             3 | #+attr_html: :width 100px[[./images/AHS-gcc-p90-together.jpg]] |             | [[section-2/figure-3.R]]  |
-|       2 |             4 | #+attr_html: :width 100px[[./images/GDK-gcc-p90-together.jpg]] |             | [[section-2/figure-4.R]]  |
-|       2 |             5 | #+attr_html: :width 100px[[./images/PEG-gcc-p90-together.jpg]] |             | [[section-2/figure-5.R]]  |
-|       2 |             6 | [[./images/space_conversion.pdf]]                              |             | [[section-2/figure-6.R]]  |
-|---------+---------------+------------------------------------------------------------+-------------+-----------------------|
-|       3 |             7 | [[./images/AHS-metrics-over-day.pdf]]                          |             | [[section-3/figure-7.R]]  |
-|       3 |             8 | [[./images/AHS-metrics-at-4.pdf]]                              |             | [[section-3/figure-8.R]]  |
-|       3 |             9 | [[./images/AHS-filters.png]]                                   |             | [[section-3/figure-9.R]]  |
-|       3 |            10 | [[./images/GDK-filters.png]]                                   |             | [[section-3/figure-10.R]] |
-|       3 |            11 | [[./images/PEG-filters.png]]                                   |             | [[section-3/figure-11.R]] |
-|       3 |            12 | [[./images/AHS-color-map.png]]                                 |             | [[section-3/figure-12.R]] |
-|       3 |            13 | [[./images/AHS-color-map-with-lstar.png]]                      |             | [[section-3/figure-13.R]] |
-|       3 |            14 | [[./images/color-correction-distance.png]]                     |             | [[section-3/figure-14.R]] |
-|       3 |            15 | [[./images/color-correction-colors.png]]                       |             | [[section-3/figure-15.R]] |
-|       3 |            16 | [[./images/impacts-on-p90.png]]                                |             | [[section-3/figure-16.R]] |
-|---------+---------------+------------------------------------------------------------+-------------+-----------------------|
+| Section | Figure Number | Figure                                 | Description | Script path           |
+|---------+---------------+----------------------------------------+-------------+-----------------------|
+|       2 |             3 | [[./images/AHS-gcc-p90-together.jpg]]      |             | [[section-2/figure-3.R]]  |
+|       2 |             4 | [[./images/GDK-gcc-p90-together.jpg]]      |             | [[section-2/figure-4.R]]  |
+|       2 |             5 | [[./images/PEG-gcc-p90-together.jpg]]      |             | [[section-2/figure-5.R]]  |
+|       2 |             6 | [[./images/space_conversion.pdf]]          |             | [[section-2/figure-6.R]]  |
+|---------+---------------+----------------------------------------+-------------+-----------------------|
+|       3 |             7 | [[./images/AHS-metrics-over-day.pdf]]      |             | [[section-3/figure-7.R]]  |
+|       3 |             8 | [[./images/AHS-metrics-at-4.pdf]]          |             | [[section-3/figure-8.R]]  |
+|       3 |             9 | [[./images/AHS-filters.png]]               |             | [[section-3/figure-9.R]]  |
+|       3 |            10 | [[./images/GDK-filters.png]]               |             | [[section-3/figure-10.R]] |
+|       3 |            11 | [[./images/PEG-filters.png]]               |             | [[section-3/figure-11.R]] |
+|       3 |            12 | [[./images/AHS-color-map.png]]             |             | [[section-3/figure-12.R]] |
+|       3 |            13 | [[./images/AHS-color-map-with-lstar.png]]  |             | [[section-3/figure-13.R]] |
+|       3 |            14 | [[./images/color-correction-distance.png]] |             | [[section-3/figure-14.R]] |
+|       3 |            15 | [[./images/color-correction-colors.png]]   |             | [[section-3/figure-15.R]] |
+|       3 |            16 | [[./images/impacts-on-p90.png]]            |             | [[section-3/figure-16.R]] |
+|---------+---------------+----------------------------------------+-------------+-----------------------|
 
 ** Section 2
 *** Figure 3 ()
