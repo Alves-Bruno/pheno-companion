@@ -19,19 +19,29 @@ customize the path to ~Rscript~.
 ** Figures Overview
 
 
-| Section | Figure | Description                             | Script path                                            |
-|---------+--------+-----------------------------------------+--------------------------------------------------------|
-|       1 |     1a | Mean gcc and rcc                        | [[section-1/tky-2006-mean-gcc-rcc.R]]                      |
-|---------+--------+-----------------------------------------+--------------------------------------------------------|
-|       2 |     2a | CPM Representation                      | [[section-2/tky-2006-gcc-mean.R]]                          |
-|---------+--------+-----------------------------------------+--------------------------------------------------------|
-|       3 |      9 | CPMs for the AHS dataset                | [[section-3/ahs-analysis-noon.R]]                          |
-|---------+--------+-----------------------------------------+--------------------------------------------------------|
+| Section | Figure Number | Figure                               | Description | Script path           |
+|---------+---------------+--------------------------------------+-------------+-----------------------|
+|       2 |             3 | [[./images/AHS-gcc-p90-together.jpg]]    |             | [[section-2/figure-3.R]]  |
+|       2 |             4 | [[./images/GDK-gcc-p90-together.jpg]]    |             | [[section-2/figure-4.R]]  |
+|       2 |             5 | [[./images/PEG-gcc-p90-together.jpg]]    |             | [[section-2/figure-5.R]]  |
+|       2 |             6 | [[./images/space_conversion.pdf]]        |             | [[section-2/figure-6.R]]  |
+|---------+---------------+--------------------------------------+-------------+-----------------------|
+|       3 |             7 | [[./images/AHS-metrics-over-day.pdf]]    |             | [[section-3/figure-7.R]]  |
+|       3 |             8 | [[./images/AHS-metrics-at-4.pdf]]        |             | [[section-3/figure-8.R]]  |
+|       3 |             9 | [[./images/AHS-filters.png]]             |             | [[section-3/figure-9.R]]  |
+|       3 |            10 | [[./images/GDK-filters.png]]             |             | [[section-3/figure-10.R]] |
+|       3 |            11 | [[./images/PEG-filters.png]]             |             | [[section-3/figure-11.R]] |
+|       3 |            12 | [[./images/AHS-color-map.png]]           |             | [[section-3/figure-12.R]] |
+|       3 |            13 | [[./images/AHS-color-map-with-lstar.png]] |             | [[section-3/figure-13.R]] |
+|       3 |            14 | [[./images/color-correction-distance.png]] |             | [[section-3/figure-14.R]] |
+|       3 |            15 | [[./images/color-correction-colors.png]] |             | [[section-3/figure-15.R]] |
+|       3 |            16 | [[./images/impacts-on-p90.png]]          |             | [[section-3/figure-16.R]] |
+|---------+---------------+--------------------------------------+-------------+-----------------------|
 
 ** Section 2
 *** Figure 3 ()
 
-#+BEGIN_SRC R :tangle figure-3.R
+#+BEGIN_SRC R :tangle section-2/figure-3.R
 #!/usr/bin/Rscript
 # Load libs
 options(crayon.enabled = FALSE)
@@ -126,7 +136,7 @@ ggsave(
 #+END_SRC
 *** Figure 4 ()
 
-#+BEGIN_SRC R :tangle figure-4.R
+#+BEGIN_SRC R :tangle section-2/figure-4.R
 #!/usr/bin/Rscript
 # Load libs
 options(crayon.enabled = FALSE)
@@ -223,7 +233,7 @@ ggsave(
 #+END_SRC
 *** Figure 5 ()
 
-#+BEGIN_SRC R :tangle figure-5.R
+#+BEGIN_SRC R :tangle section-2/figure-5.R
 #!/usr/bin/Rscript
 
 options(crayon.enabled = FALSE)
@@ -316,7 +326,7 @@ ggsave(
 
 *** Figure 6 ()
 
-#+BEGIN_SRC R :tangle figure-6.R
+#+BEGIN_SRC R :tangle section-2/figure-6.R
 #!/usr/bin/Rscript
 
 options(crayon.enabled = FALSE)
@@ -672,11 +682,10 @@ p <- (p1 / p2) + plot_layout(design = layout)
 ggsave("./images/space_conversion.pdf", plot=p, width=6, height=4)
 #+END_SRC
 
-
 ** Section 3
 *** Figure 7 ()
 
-#+BEGIN_SRC R :tangle figure-7.R
+#+BEGIN_SRC R :tangle section-3/figure-7.R
 #!/usr/bin/Rscript
 
 options(crayon.enabled = FALSE)
@@ -757,7 +766,7 @@ ggsave(
 
 *** Figure 8 ()
 
-#+BEGIN_SRC R :tangle figure-8.R
+#+BEGIN_SRC R :tangle section-3/figure-8.R
 #!/usr/bin/Rscript
 
 options(crayon.enabled = FALSE)
@@ -826,7 +835,7 @@ ggsave(
 
 *** Figure 9 ()
 
-#+BEGIN_SRC R :tangle figure-9.R
+#+BEGIN_SRC R :tangle section-3/figure-9.R
 #!/usr/bin/Rscript
 
 options(crayon.enabled = FALSE)
@@ -926,7 +935,7 @@ ggsave(
 #+END_SRC
 *** Figure 10 ()
 
-#+BEGIN_SRC R :tangle figure-10.R
+#+BEGIN_SRC R :tangle section-3/figure-10.R
 #!/usr/bin/Rscript
 
 options(crayon.enabled = FALSE)
@@ -1023,7 +1032,7 @@ ggsave(
 
 *** Figure 11 ()
 
-#+BEGIN_SRC R :tangle figure-11.R
+#+BEGIN_SRC R :tangle section-3/figure-11.R
 #!/usr/bin/Rscript
 
 options(crayon.enabled = FALSE)
@@ -1130,7 +1139,7 @@ ggsave(
 
 *** Figure 12 ()
 
-#+BEGIN_SRC R :tangle figure-12.R
+#+BEGIN_SRC R :tangle section-3/figure-12.R
 #!/usr/bin/Rscript
 
 options(crayon.enabled = FALSE)
@@ -1231,7 +1240,7 @@ ggsave(
 
 *** Figure 13 ()
 
-#+BEGIN_SRC R :tangle figure-13.R
+#+BEGIN_SRC R :tangle section-3/figure-13.R
 #!/usr/bin/Rscript
 
 options(crayon.enabled = FALSE)
@@ -1318,7 +1327,7 @@ ggsave(
 
 *** Figure 14 ()
 
-#+BEGIN_SRC R :tangle figure-14.R
+#+BEGIN_SRC R :tangle section-3/figure-14.R
 #!/usr/bin/Rscript
 
 options(crayon.enabled = FALSE)
@@ -1518,7 +1527,7 @@ ggsave(
 #+END_SRC
 *** Figure 15 ()
 
-#+BEGIN_SRC R :tangle figure-15.R
+#+BEGIN_SRC R :tangle section-3/figure-15.R
 #!/usr/bin/Rscript
 
 options(crayon.enabled = FALSE)
@@ -1753,7 +1762,7 @@ ggsave(
 
 *** Figure 16 ()
 
-#+BEGIN_SRC R :tangle figure-16.R
+#+BEGIN_SRC R :tangle section-3/figure-16.R
 #!/usr/bin/Rscript
 
 options(crayon.enabled = FALSE)
