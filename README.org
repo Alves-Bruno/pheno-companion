@@ -15,9 +15,7 @@ This companion material is written in the R programming language, and
 all the scripts make heavy use of the [[https://www.tidyverse.org/][tidyverse]]. In order to reproduce
 the work contained in this repository, both environments should be
 installed. We also use the [[https://cran.r-project.org/web/packages/colorspace/vignettes/colorspace.html#installation][colorspace]] library for color palette
-manipulation. The [[https://cran.r-project.org/web/packages/cowplot/index.html][cowplot]] and [[https://cran.r-project.org/web/packages/patchwork/index.html][patchwork]] libraries are used to combine
-=ggplot= objects.
-
+manipulation. 
 This work was tested in the following R environment:
 
 #+BEGIN_SRC R :results output :exports both
